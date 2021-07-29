@@ -1,42 +1,45 @@
-import * as React from "react"
-import PropTypes from "prop-types"
+import React from "react"
 import { Link } from "gatsby"
+import  '../MarkStyle/markStyle.css'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+
+
+const NavHeader = () =>  {
+
+return(
+
+
+<div class="divnavbar">
+<br></br>
+<br></br>
+<br></br>
+
+<body>
+<br></br>
+<br></br>
+    <header> 
+    <nav>
+    <br></br>
+<br></br>
+    <ul>   
+
+  
+    <li><a href ="/" class="NavbarLink" >Home</a></li>
+    <li><a href ="/about/" class="NavbarLink" >About</a></li>
+    <li><a href="/blogs/" class="NavbarLink">Blog</a></li>
+    <li><a href="/contact/" class="NavbarLink" >Contact</a></li>
+    
+    </ul> 
+   
+    </nav>
+
+    </header>
+    </body>
     </div>
-  </header>
+
+  
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
+export default NavHeader
