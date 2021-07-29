@@ -5,6 +5,9 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import NavHeader from "../components/header"
+import Divtextheader from "../components/divheadertext"
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
