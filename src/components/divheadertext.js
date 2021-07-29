@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import  '../MarkStyle/markStyle.css'
+import  '../components/markStyle.css'
 
 
 const Divtextheader = () =>  {
