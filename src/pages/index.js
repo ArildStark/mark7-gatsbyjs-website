@@ -9,6 +9,11 @@ import NavHeader from "../components/header"
 import Divtextheader from "../components/divheadertext"
 
 const IndexPage = () => (
+  
+  <Divtextheader>
+</Divtextheader>
+  
+  
   <Layout>
     <Seo title="Home" />
     <h1>Hi people</h1>
